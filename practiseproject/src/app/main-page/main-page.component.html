@@ -1,0 +1,195 @@
+<div class="main-content">
+    <section class="hero-section">
+      <div class="hero-section">
+        
+        <div class="hero-text">
+            <h1>Hungry? Order now!</h1>
+            <p>Explore restaurants that deliver to your door.</p>
+        </div>
+        <button class="cta-btn">Order Now</button>
+    </div>
+      
+    </section>
+    <section class="category-section">
+      <h3>Browse by Category</h3>
+      <div class="categories">
+          <div class="food-menu">
+              <div class="food-items">
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'biryani']">
+                          <img src="/assets/Biryaniitem.jpeg" alt="Biryani">
+                      </a>
+                      <p>Biryani</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'pizza']">
+                          <img src="assets/Pizzaitem.jpeg" alt="Pizza">
+                      </a>
+                      <p>Pizzas</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'ice-cream']">
+                          <img src="/assets/Icecreamitem.jpeg" alt="Ice-Cream">
+                      </a>
+                      <p>Ice-Cream</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'cakes']">
+                          <img src="/assets/Cakesitem.jpeg" alt="Cakes">
+                      </a>
+                      <p>Cakes</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'burgers']">
+                          <img src="/assets/Burgeritem.jpeg" alt="Burgers">
+                      </a>
+                      <p>Burgers</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'shakes']">
+                          <img src="/assets/milkshakes.jpg" alt="Shakes">
+                      </a>
+                      <p>Shakes</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'south-indian']">
+                          <img src="/assets/southindian.jpg" alt="South Indian">
+                      </a>
+                      <p>South India</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'north-indian']">
+                          <img src="/assets/northindian.jpg" alt="NorthIndian">
+                      </a>
+                      <p>North India</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'drinks']">
+                          <img src="/assets/drinks.jpg" alt="Drinks">
+                      </a>
+                      <p>Drinks</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'juices']">
+                          <img src="/assets/juices.jpg" alt="Juices">
+                      </a>
+                      <p>Juices</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'parata']">
+                          <img src="/assets/parata.jpg" alt="Parata">
+                      </a>
+                      <p>Parata</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'poori']">
+                          <img src="/assets/poori.jpg" alt="Poori">
+                      </a>
+                      <p>Poori</p>
+                  </div>
+                  <div class="food-item">
+                      <a [routerLink]="['/restaurants', 'noodles']">
+                          <img src="/assets/noodles.jpg" alt="Noodles">
+                      </a>
+                      <p>Noodles</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+    <!-- <section class="category-section">
+      <h3>Browse by Category</h3>
+      <div class="categories">
+        <div class="category-card">Pizza</div>
+        <div class="category-card">Beverages</div>
+        <div class="category-card">Biryani</div>
+        <div class="category-card">Desserts</div>
+        <div class="category-card">Noth-Indian</div>
+        <div class="category-card">South-Indian</div>
+        <div class="category-card">Korean</div>
+        <div class="category-card">Chinese</div>
+        <div class="category-card">Ice creams</div>
+        <div class="category-card">Rolls&Burgers</div>
+        <div class="category-card">Cakes</div>
+        <div class="category-card">Pastry</div>
+        <div class="category-card">Shawarma</div>
+        <div class="category-card">Pasta</div>
+      </div>
+    </section>
+   -->
+    <section class="popular-dishes-section">
+      <h3>Popular Dishes</h3>
+      <div class="dishes">
+        <div class="dish-card">
+          <img src="assets/fish-burger.jpeg" alt="Fish Burger">
+          <p>Fish Burger</p>
+          <p>200</p>
+        </div>
+        <div class="dish-card">
+          <img src="assets/chicken-burger.jpeg" alt="chicken Burger">
+          <p>Chicken Burger</p>
+          <p>180</p>
+        </div>
+        <div class="dish-card">
+            <img src="assets/pizza.jpeg" alt="Pizza">
+            <p>Pizza</p>
+            <p>200</p>
+          </div>
+          <div class="dish-card">
+            <img src="assets/shawarma.jpeg" alt="Shawarma">
+            <p>Shawarma</p>
+            <p>180</p>
+          </div>
+         
+          <div class="dish-card">
+            <img src="assets/Vegpizza.jpeg" alt="Veg Pizza">
+            <p>Veg Pizza</p>
+            <p>180</p>
+          </div>
+      </div>
+    </section>
+    <section class="top-restaurants-section">
+      <h3>Top Restaurants</h3>
+      <div class="restaurants">
+          <div class="restaurant-card">
+              <img src="assets/pulse.jpeg" alt="Pulse Restaurant">
+              <h4>Pulse</h4>
+              <p>Cuisine: Indian, Chinese</p>
+              <p>Rating: ⭐⭐⭐⭐⭐</p>
+          </div>
+          <div class="restaurant-card">
+            <img src="assets/pulse.jpeg" alt="Pulse Restaurant">
+            <h4>Pizzza hut</h4>
+            <p>Cuisine: Indian, Chinese</p>
+            <p>Rating: ⭐⭐⭐⭐⭐</p>
+        </div>
+        <div class="restaurant-card">
+          <img src="assets/pulse.jpeg" alt="Pulse Restaurant">
+          <h4>Chillies</h4>
+          <p>Cuisine: Indian, Chinese</p>
+          <p>Rating: ⭐⭐⭐⭐⭐</p>
+      </div>
+      <div class="restaurant-card">
+        <img src="assets/pulse.jpeg" alt="Pulse Restaurant">
+        <h4>Pulse Restaurant </h4>
+        <p>Cuisine: Indian, Chinese</p>
+        <p>Rating: ⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="restaurant-card">
+      <img src="assets/pulse.jpeg" alt="Pulse Restaurant">
+      <h4>Pulse Restaurant </h4>
+      <p>Cuisine: Indian, Chinese</p>
+      <p>Rating: ⭐⭐⭐⭐⭐</p>
+  </div>
+  <div class="restaurant-card">
+    <img src="assets/pulse.jpeg" alt="Pulse Restaurant">
+    <h4>Pulse Restaurant </h4>
+    <p>Cuisine: Indian, Chinese</p>
+    <p>Rating: ⭐⭐⭐⭐⭐</p>
+</div>
+          </div>
+          
+  </section>
+  </div>
+  

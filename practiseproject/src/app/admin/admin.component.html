@@ -1,0 +1,13 @@
+<p>admin works!</p>
+
+<input type="text" [(ngModel)]="foodItem" placeholder="Enter food item name" />
+
+<h2>Search Results for {{ foodItem || '...' }}</h2>
+
+<p *ngIf="getFilteredRestaurants().length > 0">
+  The following restaurants sell {{ foodItem }}: {{ getFilteredRestaurantNames() }}.
+</p>
+
+<p *ngIf="getFilteredRestaurants().length === 0 && foodItem">
+  No restaurants found selling {{ foodItem }}.
+</p>
